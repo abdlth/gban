@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي - شبيه فيسبوك</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">موقعي</div>
+        <nav>
+            <ul>
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#">الملف الشخصي</a></li>
+                <li><a href="#">الإعدادات</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="post-box">
+            <textarea placeholder="ماذا يدور في بالك؟"></textarea>
+            <button>نشر</button>
+        </section>
+        <section class="feed">
+            <div class="post">
+                <h3>أحمد محمود</h3>
+                <p>هذا هو أول منشور لي!</p>
+                <button>إعجاب</button>
+                <button>تعليق</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
